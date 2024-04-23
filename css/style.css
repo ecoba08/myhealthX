@@ -230,8 +230,8 @@ a{
 
 .hero-header>.hero-header-container>.hero-header-content{
     position: absolute;
-    top: 27vw;
-    left: 7.5vw;
+    top: 30vw;
+    left: 6.5vw;
     display: flex;
     flex-direction: column;
     justify-content: start;
@@ -241,7 +241,7 @@ a{
 
 @media screen and (min-width: 1127px) {
     .hero-header>.hero-header-container>.hero-header-content {
-        top: 250px;
+        top: 270px;
     }
 }
 
@@ -820,6 +820,10 @@ footer{
     margin-bottom: 0;
     margin-left: auto;
 }
+.copyrights a{
+    text-decoration: none;
+    color: #544937;
+}
 
 @media only screen and (max-width: 767px) {
 
@@ -900,5 +904,6 @@ footer{
         font-size: 12px;
         text-align: center;
     }
+
     
 }
