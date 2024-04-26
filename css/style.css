@@ -841,6 +841,12 @@ footer{
         height: 62px;
     }
 
+    .footer_container,.footer_sub{
+        display: block;
+        width: 100%;
+        padding: 0;
+    }
+
     .footer_sub {
         border-top: 0;
         padding-bottom: 50px;
@@ -874,12 +880,10 @@ footer{
 
     .footer_sub dl {
         text-align: center;
-    }
-
-    .footer_container,.footer_sub{
-        display: block;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0 35px;
         width: 100%;
-        padding: 0;
     }
     
     .footer_sub dl+dl, .footer_sub dl dd+dd {
