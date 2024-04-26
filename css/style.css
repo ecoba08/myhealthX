@@ -12,6 +12,7 @@ a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, bo
 body {
     color: #544937;
     line-height: 1.9;
+    font-family: YakuHanJPs, YuGothic, Hiragino Kaku Gothic ProN,Meiryo, sans-serif;
 }
 
 
@@ -377,7 +378,7 @@ a{
         top: 30px;
         left: 20px;
         right: unset;
-        width: 490px;
+        width: 90%;
         height: 276px;
     }
 
